@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,28 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
         .header, .section, .footer {
             padding: 20px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
-        .header, .footer {
+        .header {
+            background-color: #f8f9fa;
+            background-image: url('https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1703699030961/06584643-9F37-4B76-A97D-96FD7F6BB9E3.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .footer {
             background-color: #f8f9fa;
         }
         .header h1, .section h3 {
@@ -25,6 +42,10 @@
         }
         .footer {
             text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
         }
         @media (max-width: 600px) {
             body {
@@ -49,7 +70,7 @@
         <section class="section">
             <h3>我们的产品和服务</h3>
             <p>为您提供全方位的环保产品和服务</p>
-            <img src="https://example.com/services.jpg" alt="我们的服务">
+            <img src="https://ts1.cn.mm.bing.net/th/id/R-C.7fcc2030290db27f08eb65b05dba299d?rik=GSHIo0RtiIMY5g&riu=http%3a%2f%2fimg.sccnn.com%2fbimg%2f336%2f354.jpg&ehk=Kns7aPwFa3NcdG2XRggciV7wP7PvZfABiJbN1yLHmqk%3d&risl=&pid=ImgRaw&r=0" alt="我们的服务">
             <ul>
                 <li><a href="#">环保产品零售</a></li>
                 <li><a href="#">环保服务</a></li>
@@ -61,7 +82,7 @@
         <section class="section">
             <h3>我们的使命</h3>
             <p>我们的使命是帮助消费者和企业减少对环境的影响，同时提供一种方便的方式来获取他们所需的环保解决方案。我们相信，通过我们的努力，我们可以推动更多的人采取环保生活方式，同时也为我们的企业创造收入。</p>
-            <img src="https://example.com/mission.jpg" alt="我们的使命">
+            <img src="https://img95.699pic.com/photo/40129/3194.jpg_wh860.jpg" alt="我们的使命">
         </section>
 
         <section class="section">
